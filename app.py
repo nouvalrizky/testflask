@@ -8,8 +8,8 @@ application = app
 def hello():
     return "This is Hello World!\n"
 
-@app.route("/dv")
-def hello():
+@app.route("/dev")
+def dev():
     return "Development on Progress!"
 
 
